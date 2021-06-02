@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: build artifact gee4
+name: build artifact R2S
 
 on:
   watch:
@@ -302,5 +302,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: gee4 firmware
+          name: R2S firmware
           path: ./bin/targets/
